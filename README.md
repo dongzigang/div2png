@@ -1,6 +1,12 @@
 # div2png
 将网页中的div转换成图片
 
+
+参考链接
+
+http://blog.csdn.net/jaylongli/article/details/50216553
+
+
 ```html
 <!DOCTYPE html>
 <html>
