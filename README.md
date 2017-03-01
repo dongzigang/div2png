@@ -92,3 +92,14 @@ http://blog.csdn.net/jaylongli/article/details/50216553
 </body>
 
 </html>
+```
+canvas转化为图片
+```js
+//传入的canvas对象必须是原生js的canvas
+   function canvasToImage(canvas) {
+        var image = new Image();
+        image.src = canvas.toDataURL("image/png");
+        return image;
+    }
+
+```
